@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Seliverstov Maxim"]
   spec.email         = ["maxim.web.developer@gmail.com"]
   spec.summary       = %q{Gem wrapper for lovelotte jquery plugins}
-  spec.description   = %q{Gem wrapper for lovelotte jquery plugins}
+  spec.description   = %q{Lovelotte JQuery plugins http://js.lovelotte.net/ for rails}
   spec.homepage      = "https://github.com/seliverstov-maxim/lovelotte-rails"
   spec.license       = "MIT"
 
@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['{lib,vendor}/**/*']
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
-  spec.add_dependency 'jquery-rails'
+  spec.add_development_dependency "bundler", ">= 1.6"
+  spec.add_development_dependency "rake", '>= 0.8.7'
+  spec.add_dependency 'jquery-rails', '>= 3.1.2'
 
   spec.add_runtime_dependency 'rails', '>= 3.0'
 end
