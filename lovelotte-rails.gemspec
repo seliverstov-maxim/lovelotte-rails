@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["maxim.web.developer@gmail.com"]
   spec.summary       = %q{Gem wrapper for lovelotte jquery plugins}
   spec.description   = %q{Gem wrapper for lovelotte jquery plugins}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/seliverstov-maxim/lovelotte-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
