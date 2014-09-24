@@ -23,7 +23,3 @@ div.scrollbar.vertical{
     overflow: hidden;
     height: 300px;
 }
-
-table td, table th{
-    width: 35px;
-}
